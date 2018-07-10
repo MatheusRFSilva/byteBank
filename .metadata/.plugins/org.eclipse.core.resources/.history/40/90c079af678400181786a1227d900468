@@ -14,11 +14,5 @@ public class CriaConta {
 		
 		System.out.println("Primeira Conta tem " + primeiraConta.saldo);
 		System.out.println("Segunda conta tem " + segundaConta.saldo);
-		
-		if (primeiraConta == segundaConta) {
-			System.out.println("É a mesma Conta");
-		}else {
-			System.out.println("São contas diferentes");
-		}
 	}
 }
